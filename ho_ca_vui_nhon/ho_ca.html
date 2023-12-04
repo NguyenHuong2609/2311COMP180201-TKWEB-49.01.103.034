@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hồ cá vui nhộn</title>
+    <link rel="icon" type="image/x-icon" href="images/Không Có Tiêu Đề10_20231203231100.png">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <div id="content">
+        <div id="shark">
+            <img src="images/shark.png" width="200px" height="auto" alt="">
+        </div>
+        <div id="diver1">
+            <img src="images/diver1.png" width="250px" height="auto" alt="">
+        </div>
+        <div id="diver2">
+            <img src="images/diver2.png" width="250px" height="auto" alt="">
+        </div>
+        <div id="diver3">
+            <img src="images/diver3.png" width="250px" height="auto" alt="">
+        </div>
+        <div id="faintSchool">
+            <img src="images/faintSchool.png" width="auto" height="auto" alt="">
+        </div>
+        <div id="goldFishSchool">
+            <img src="images/goldFishSchool.png" width="auto" height="auto" alt="">
+        </div>
+        <div id="turtle">
+            <img src="images/turtle.png" width="100px" height="auto" alt="">
+        </div>
+        <div id="fish-nho">
+            <img src="images/fish_1f41f.gif" width="80px" height="auto" alt="">
+        </div>
+        <div id="fish-yellow">
+            <img src="images/source.gif" width="150px" height="auto" alt="">
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+        <button class="hinhnen-ca" id="myButton"><img width="20px" height="auto" src="images/stop-button.png" alt=""></button>
+
+        <audio id="myAudio">
+            <source src="audio/nhacca.mp3" type="audio/wav">
+        </audio>
+        <button class="hinhnen-ca" type="button" id="music" onclick="aud_play_pause()"><img width="20px" height="auto" src="images/play.png" alt=""></button>
+
+
+        <script type="text/javascript">
+        function randomHero() {
+            var heroPics = [
+                'images/background01.jpg', 
+                'images/background3.webp', 
+                'images/background5.webp',
+                'images/background7.jpg',
+                'images/background9.jpg'
+            ];
+            $('body').css({
+                'background': 'url(' + heroPics[Math.floor(Math.random() * heroPics.length)] + ') no-repeat',
+                'background-attachment': 'scroll',
+                'background-position': '50% 50%',    
+            });
+        }
+        randomHero();
+        $('#myButton').on('click', randomHero);
+        </script> 
+        
+        <script type="text/javascript">
+            function aud_play_pause() {
+                var myAudio = document.getElementById("myAudio");
+                if (myAudio.paused) {
+                    myAudio.play();
+                } else {
+                    myAudio.pause();
+                }
+            }
+        </script>
+        
+    </div>
+</body>
+</html>
