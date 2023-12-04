@@ -1,0 +1,31 @@
+.form-2{
+    background: orange;
+    display: inline-block;
+}
+form span{
+    display: inline-block;
+    width: 80px;
+    margin: 10px 3px 3px 8px;
+    font-weight: bold;
+}
+form input, form select{
+    width: 200px;
+    margin: 0px 1px;
+    box-sizing: border-box;
+}
+form select{
+    margin: 1px;
+}
+select{
+    height: 30px;
+}
+form input[type='submit']{
+    display: block;
+    margin: 10px 0px 12px 96px;
+    width: 80px;
+    height: 30px;
+}
+.lienhe-form{
+    padding: 20px 400px;
+}
+
