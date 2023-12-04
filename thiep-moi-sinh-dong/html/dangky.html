@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Đăng ký</title>
+    <link rel="icon" type="image/x-icon" href="../halloween/Không Có Tiêu Đề7_20231203230717.png">
+    <link rel="stylesheet" href="../css/gioithieu.css">
+    <link rel="stylesheet" href="../css/dangky.css">
+</head>
+<body>
+  <header class="header-gioithieu">
+      <img src="../halloween/background1 - Copy.jpg" alt="">
+  </header>
+
+  <div class="nav1">
+    <div class="navbar">
+      <div class="anh-logo">
+        <a style="padding-bottom: 5.4px; padding-top: 7px;" href="moman.html"><img style="width: 30px" src="../halloween/Không Có Tiêu Đề7_20231203230717.png" alt=""></a>
+      </div>
+      <a href="gioithieu.html">Trang Chủ</a>
+      <div class="dropdown">
+        <button class="dropbtn">Gian Hàng
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="monan.html">Món ăn truyền thống</a>
+          <a href="moviefeel.html">Movie feel</a>
+        </div>
+      </div>
+      <a href="bosuutap.html">Bộ Sưu Tập</a>
+      <button class="halloween-music" type="button" id="music" onclick="aud_play_pause()">
+        <img width="20px" height="auto" src="../halloween/play.png" alt="">
+      </button>
+      <a style="float: right;" href="lienhe.html">Liên Hệ</a>
+      <a style="float: right;" href="dangky.html">Đăng Ký</a>
+    </div>
+  </div>
+  <div class="col-tong">
+    <div class="grid_full-width">
+      <div class="grid_row">
+        <div class="col-3 col-3-6">
+          <img src="../halloween/Mail-icon.png">
+          <img src="../halloween/Search-go-icon.png">
+        </div>
+        <div class="vanban-halloween">
+          <h1 id="tieude-dangky-halloween">Halloween Event Form</h1>
+        <div class="container">
+          <form action="">
+            <label for="hoten"><b>Họ tên:</b></label>
+            <input type="text" id="hoten" name="hoten" minlength="1" maxlength="40" placeholder="Your name.." required>
+            <label for="tuoi"><b>Tuổi:</b></label>
+            <input type="number" id="tuoi" name="tuoi" min="0" maxlength="3" placeholder="Your age.." required>
+            <label for="gioitinh"><b>Giới tính:</b></label>
+            <select id="gioitinh" name="gioitinh" required>
+              <option value="--Choose--">--Choose--</option>
+              <option value="nam">Nam</option>
+              <option value="nu">Nữ</option>
+            </select>
+            <label for="sdt"><b>SĐT:</b></label>
+            <input type="text" id="sdt" name="sdt" min="0" pattern="(\+84|0)\d{9}" placeholder="Your number.." required>
+            <label for="email"><b>Email:</b></label>
+            <input type="email" id="email" name="email" pattern="+@+" placeholder="Your email.." required>
+            <label for="day"><b>Ngày đăng ký:</b></label>
+            <input type="date" id="day" name="day" required><br>
+            <div style="margin-bottom: 20px"></div>
+            <input type="submit" id="dangky-halloween" value="Đăng ký"><br>
+            <i>
+              <b>*Một vài lưu ý nhỏ:</b>
+              <p>- Hành xử lịch sự, phù hợp.</p>
+              <p>- Bạn nhớ mang theo phiếu đã đăng ký cho người kiểm duyệt!!</p>
+              <p>Hy vọng bạn đã đọc toàn bộ một cách kỹ lưỡng và sẵn sàng tuân thủ những điều kiện trên, 
+                  ban tổ chức rất cảm ơn bạn đã dành thời gian và hẹn gặp lại bạn sớm!!!</p>
+            </i>
+          </form>
+        </div>
+        </div>
+        <div class="col-3 col-3-9">
+          <img src="../halloween/Download-icon.png">
+          <img src="../halloween/Hat-icon.png">
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer-halloween">
+    <div>
+      <h3>@NTTH_BTCN</h3>
+    </div>
+  </footer>
+
+  <audio id="myAudio">
+      <source src="../halloween/nhac.mp3" type="audio/wav">
+  </audio>
+  <script type="text/javascript">
+    function aud_play_pause() {
+      var myAudio = document.getElementById("myAudio");
+      if (myAudio.paused) {
+          myAudio.play();
+      } else {
+          myAudio.pause();
+      }
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</body>
+</html>

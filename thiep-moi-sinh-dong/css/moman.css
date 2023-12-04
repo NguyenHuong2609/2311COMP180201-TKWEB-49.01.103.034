@@ -1,0 +1,162 @@
+body{
+   margin: 0px;
+   padding: 0px;
+}
+.background-img img{
+   width: -webkit-fill-available;
+   position: absolute;
+   height: -webkit-fill-available;
+  }
+.tieude-anh{
+  position: absolute;
+  top: 21%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.open{
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    border-color: orange;
+}
+.open a{
+    text-decoration: none;
+    color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+}
+h1{
+    font-size: 50px;
+}
+button{
+    background: white;
+}
+button:hover{
+    background: orangered;
+    transition: .5s;
+}
+button a:hover{
+    color: white;
+    transition: .5s;
+}
+
+#conma{
+  position: absolute;
+  right: 370px;
+  top: 26px;
+  animation-name: conma;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+#conma img{
+  width: 80px;
+}
+@keyframes conma{
+  0% {right: 370px; top: 26px;}
+  10% {right: 480px; top: 12px;}
+  20% {right: 590px; top: 31px;}
+  30% {right: 700px; top: 12px;}
+  40% {right: 810px; top: 31px;}
+  50% {right: 920px; top: 12px;}
+  60% {right: 920px; top: 31px;}
+  70% {right: 800px; top: 12px;}
+  80% {right: 680px; top: 31px;}
+  90% {right: 560px; top: 12px;}
+  100% {right: 440px; top: 31px; transform: scaleX(-1);}
+}
+
+#bingo{
+  position: absolute;
+  bottom: 45px;
+  left: 90px;
+}
+#bingo img{
+  width: 200px;
+}
+#bong{
+  position: absolute;
+  bottom: 200px;
+  right: 300px;
+  animation-name: bong;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+#bong img{
+  width: 50px;
+}
+@keyframes bong{
+  0% {right: 300px; bottom: 200px;}
+  25% {right: 210px; bottom: 130px;}
+  50% {right: 150px; bottom: 220px;}
+  60% {right: 180px; bottom: 250px;}
+  80% {right: 250px; bottom: 280px;}
+  90% {right: 300px; bottom: 200px;}
+  100% {right: 400px; bottom: 230px; transform: scaleX(-1);}
+}
+#muc{
+  position: absolute;
+  top: 120px;
+  left: 320px;
+  animation-name: muc;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+#muc img{
+  width: 60px;
+}
+@keyframes muc{
+  0%{left: 320px; top: 120px;}
+  10%{left: 300px; top: 120px;}
+  20%{left: 240px; top: 120px;}
+  30%{left: 200px; top: 150px;}
+  40%{left: 190px; top: 160px;}
+  50%{left: 180px; top: 170px;}
+  60%{left: 185px; top: 150px;}
+  70%{left: 230px; top: 120px;}
+  80%{left: 250px; top: 120px;}
+  90%{left: 260px; top: 120px;}
+  100%{left: 330px; top: 120px; transform: scaleX(-1);}
+}
+#longden{
+  position: absolute;
+  right: 270px;
+  top: 100px;
+}
+#longden img{
+  width: 70px;
+}
+
+@-webkit-keyframes my {
+   0% { color: #F8CD0A; } 
+   50% { color: #fff;  } 
+   100% { color: #F8CD0A;  } 
+ }
+ @-moz-keyframes my { 
+   0% { color: #F8CD0A;  } 
+   50% { color: #fff;  }
+   100% { color: #F8CD0A;  } 
+ }
+ @-o-keyframes my { 
+   0% { color: #F8CD0A; } 
+   50% { color: #fff; } 
+   100% { color: #F8CD0A;  } 
+ }
+ @keyframes my { 
+   0% { color: #F8CD0A;  } 
+   50% { color: #fff;  }
+   100% { color: #F8CD0A;  } 
+ } 
+ #laplanh {
+  -webkit-animation: my 700ms infinite;
+  -moz-animation: my 700ms infinite; 
+  -o-animation: my 700ms infinite; 
+  animation: my 700ms infinite;

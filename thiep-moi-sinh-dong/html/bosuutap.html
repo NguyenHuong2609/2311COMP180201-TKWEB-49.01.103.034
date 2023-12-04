@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Bộ sưu tập</title>
+    <link rel="icon" type="image/x-icon" href="../halloween/Không Có Tiêu Đề7_20231203230717.png">
+    <link rel="stylesheet" href="../css/gioithieu.css">
+    <link rel="stylesheet" href="../css/bosuutap.css">
+</head>
+<body>
+  <header class="header-gioithieu">
+      <img src="../halloween/background1 - Copy.jpg" alt="">
+  </header>
+  <div class="nav1">
+    <div class="navbar">
+      <div class="anh-logo">
+        <a style="padding-bottom: 5.4px; padding-top: 7px;" href="moman.html"><img style="width: 30px" src="../halloween/Không Có Tiêu Đề7_20231203230717.png" alt=""></a>
+      </div>
+      <a href="gioithieu.html">Trang Chủ</a>
+      <div class="dropdown">
+        <button class="dropbtn">Gian Hàng
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="monan.html">Món ăn truyền thống</a>
+          <a href="moviefeel.html">Movie feel</a>
+        </div>
+      </div>
+      <a href="bosuutap.html">Bộ Sưu Tập</a>
+      <button class="halloween-music" type="button" id="music" onclick="aud_play_pause()">
+        <img width="20px" height="auto" src="../halloween/play.png" alt="">
+      </button>
+      <a style="float: right;" href="lienhe.html">Liên Hệ</a>
+      <a style="float: right;" href="dangky.html">Đăng Ký</a>
+    </div>
+  </div>
+  <div class="header">
+    <h1>Halloween Images</h1>
+    <p>Top những hình ảnh kinh dị nhất trong lễ hội Halloween.</p>
+  </div>
+<!-- Photo Grid -->
+  <div class="row canchinh-halloween"> 
+    <div class="column">
+      <img src="../halloween/kinhdi25.jpg" style="width:100%">
+      <img src="../halloween/kinhdi1.webp" style="width:100%">
+      <img src="../halloween/kinhdi7.jpg" style="width:100%">
+      <img src="../halloween/kinhdi11.webp" style="width:100%">
+      <img src="../halloween/kinhdi12.webp" style="width:100%">
+      <img src="../halloween/kinhdi2.jpg" style="width:100%">
+      <img src="../halloween/kinhdi21.jpg" style="width:100%; height: 237px">
+    </div>
+    <div class="column">
+      <img src="../halloween/kinhdi17.jpg" style="width:100%">
+      <img src="../halloween/kinhdi19.jpg" style="width:100%">
+      <img src="../halloween/kinhdi23.webp" style="width:100%">
+      <img src="../halloween/kinhdi18.jpg" style="width:100%">
+      <img src="../halloween/kinhdi20.jpg" style="width:100%">
+      <img src="../halloween/kinhdi16.jpg" style="width:100%">
+    </div>  
+    <div class="column">
+      <img src="../halloween/kinhdi15.webp" style="width:100%">
+      <img src="../halloween/kinhdi4.jpg" style="width:100%">
+      <img src="../halloween/kinhdi13.webp" style="width:100%">
+      <img src="../halloween/kinhdi26.jpg" style="width:100%">
+      <img src="../halloween/kinhdi3.jpg" style="width:100%">
+      <img src="../halloween/kinhdi10.jpg" style="width:100%">
+      <img src="../halloween/kinhdi22.jpg" style="width:100%; height: 151px">
+    </div>
+    <div class="column">
+      <img src="../halloween/kinhdi5.jpg" style="width:100%">
+      <img src="../halloween/kinhdi6.jpg" style="width:100%">
+      <img src="../halloween/kinhdi24.jpg" style="width:100%">
+      <img src="../halloween/kinhdi14.jpg" style="width:100%">
+      <img src="../halloween/kinhdi9.webp" style="width:100%">
+      <img src="../halloween/kinhdi8(dacbiet).png" style="width:100%; height: 219px">
+    </div>
+  </div>
+  <footer class="footer-halloween">
+    <div>
+      <h3>@NTTH_BTCN</h3>
+    </div>
+  </footer>
+
+    <audio id="myAudio">
+      <source src="../halloween/nhac.mp3" type="audio/wav">
+    </audio>
+    <script type="text/javascript">
+      function aud_play_pause() {
+        var myAudio = document.getElementById("myAudio");
+        if (myAudio.paused) {
+            myAudio.play();
+        } else {
+            myAudio.pause();
+        }
+      }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</body>
+</html>

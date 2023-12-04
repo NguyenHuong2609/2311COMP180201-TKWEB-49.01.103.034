@@ -1,0 +1,86 @@
+.col-2{
+	width: 16.6667%;
+	padding: 0px 12px;
+	background: orangered;
+	box-sizing: border-box;
+}
+.list-monan{
+	width: 66.6666%;
+	padding: 0px 30px;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+}
+.list-monan img{
+	width: 200px;
+	height: 135px;
+}
+.list-monan h1{
+	padding: 32px 32px 10px 32px;
+	text-align: center;
+}
+.supbido-f, .banhlinhhon-f, .keotao-f, .colcannon-f, .banhquy-f, .banhchanhmaquai-f, .boxtypancakes-f, .barnbrack-f{
+	display: flex;
+	width: 100%;
+}
+p{
+	margin: 0px;
+}
+.grid-vanban{
+	text-align: justify;
+	border: dotted;
+	border-radius: 10px;
+	padding: 10px;
+	width: 123%;
+	border-color: white;
+}
+.grid-hinhanh{
+	width: 30%;
+	display: inline-grid;
+}
+.supbido-f .grid-vanban, .banhlinhhon-f .grid-vanban, .banhquy-f .grid-vanban, .boxtypancakes-f .grid-vanban{
+	
+}
+.keotao-f .grid-vanban, .colcannon-f .grid-vanban, .banhchanhmaquai-f .grid-vanban, .barnbrack-f .grid-vanban{
+	
+}
+.supbido-c h3, .banhlinhhon-c h3, .banhquy-c h3, .boxtypancakes-c h3{
+	text-align: right;
+}
+#btnText, #btnText2, #btnText3, #btnText4, #btnText5, #btnText6, #btnText7, #btnText8{
+	border-radius: 20px;
+	border-color: orangered;
+    background-color: #ffd17d;
+    margin-top: 8px;
+}
+button:hover{
+	cursor: pointer;
+}
+.space{
+	width: 10%;
+}
+h4, ul{
+	list-style: auto;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 10px;
+}
+h4{
+	margin-bottom: 10px;
+	font-size: 23px;
+	color: black;
+}
+.danhsach-monan{
+	margin-top: 62px;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+ul{
+	line-height: 30px;
+	color: black;
+	list-style: none;
+}
+li:hover{
+	color: white;
+	background-color: black;
+	cursor: pointer;
+}

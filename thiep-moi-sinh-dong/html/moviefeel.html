@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Movie feel</title>
+    <link rel="icon" type="image/x-icon" href="../halloween/Không Có Tiêu Đề7_20231203230717.png">
+    <link rel="stylesheet" href="../css/gioithieu.css">
+    <style type="text/css">
+    	.movie{
+    		margin-bottom: 30px;
+    	}
+      .movie-tieude{
+        text-align: center;
+        padding: 32px;
+        line-height: 36px;
+      }
+      .col-3-1-1{
+        box-sizing: border-box;
+        padding-left: 42px;
+        padding-top: 255px;
+      }
+      .col-3-1-2{
+        box-sizing: border-box;
+        padding-left: 72px;
+        padding-top: 255px;
+      }
+      .col-3 img{
+        padding-bottom: 0px;
+      }
+      .vanban-halloween {
+        margin-bottom: 30px;
+        box-sizing: border-box;
+      }
+    </style>
+</head>
+<body>
+    <header class="header-gioithieu">
+        <img src="../halloween/background1 - Copy.jpg" alt="">
+    </header>
+    <div class="nav1">
+      <div class="navbar">
+        <div class="anh-logo">
+          <a style="padding-bottom: 5.4px; padding-top: 7px;" href="moman.html"><img style="width: 30px" src="../halloween/Không Có Tiêu Đề7_20231203230717.png" alt=""></a>
+        </div>
+        <a href="gioithieu.html">Trang Chủ</a>
+        <div class="dropdown">
+          <button class="dropbtn">Gian Hàng
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="monan.html">Món ăn truyền thống</a>
+            <a href="moviefeel.html">Movie feel</a>
+          </div>
+        </div>
+        <a href="bosuutap.html">Bộ Sưu Tập</a>
+        <button class="halloween-music" type="button" id="music" onclick="aud_play_pause()">
+          <img width="20px" height="auto" src="../halloween/play.png" alt="">
+        </button>
+        <a style="float: right;" href="lienhe.html">Liên Hệ</a>
+        <a style="float: right;" href="dangky.html">Đăng Ký</a>
+      </div>
+    </div>
+    <div class="col-tong">
+      <div class="grid_full-width">
+        <div class="grid_row">
+          <div class="col-3 col-3-1-1">
+            <img src="../halloween/Cauldron-icon.png">
+          </div>
+          <div class="vanban-halloween">
+          	<div class="movie-tieude">
+          		<h1>This Is Halloween (From Tim Burton's "The Nightmare Before Christmas")</h1>
+          	</div>
+            <div class="movie">
+            	<video width="100%" controls>
+      				  <source src="../halloween/movie.mp4" type="video/mp4">
+      				</video>
+            </div>
+          </div>
+          <div class="col-3 col-3-1-2">
+            <img src="../halloween/Shopping-Cart-icon.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-halloween">
+      <div>
+        <h3>@NTTH_BTCN</h3>
+      </div>
+    </footer>
+
+    <audio id="myAudio">
+      <source src="../halloween/nhac.mp3" type="audio/wav">
+    </audio>
+    <script type="text/javascript">
+      function aud_play_pause() {
+        var myAudio = document.getElementById("myAudio");
+        if (myAudio.paused) {
+            myAudio.play();
+        } else {
+            myAudio.pause();
+        }
+      }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</body>
+</html>
