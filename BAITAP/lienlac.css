@@ -1,0 +1,250 @@
+.container-lienlac{
+    background-color: #ffd5dd;
+    margin: 50px 0px 30px 0px;
+    border-radius: 3px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container-ll-phanthongtin{
+    margin-right: 50px;
+}
+.ll-dt{
+    padding-left: 26px;
+    padding-top: 20px;
+}
+.dt-tieude{
+    padding-left: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.dtt-tieude{
+    padding-left: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 3px;
+    margin-top: 0px;
+}
+.ll-list-item{
+    list-style: none; 
+    margin-bottom: 6px;
+}
+.ll-list-item-4{
+    text-align: justify;
+}
+.button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.button-1{
+    margin-top: 8px;
+}
+.icon-dt{
+    margin-right: 60px;
+    margin-top: 90px;
+}
+.icon-dt-kichco{
+    width: 310px;
+    height: 370px;
+}
+.footer{
+    background-color: rgb(161 110 149);
+    height: 60px;
+}
+.footer-content{
+    text-align: center;
+    color: rgb(187 187 187);
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 25px;
+}
+.grid-column-6{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 75%;
+}
+.lienlac-list-2{
+    padding-bottom: 20px;
+}
+@media (min-width: 1025px){
+    .container-lienlac{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media (max-width: 1024px){
+    .icon-dt{
+        margin-top: 95px;
+        padding-right: 70px;
+    }
+    .container-lienlac{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media (max-width: 412px){
+    .icon-dt-kichco{
+        width: 200px;
+        height: 238.7px;
+    }
+    .container-lienlac{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .icon-dt{
+        margin-top: 30px;
+        padding-right: 0px;
+        padding-left: 50px;
+    }
+    .ll-dt{
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+}
+@media (max-width: 768px){
+    .icon-dt-kichco{
+        width: 250px;
+        height: 298.4px;
+    }
+    .icon-dt{
+        margin-top: 150px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .ll-dt{
+        padding-left: 5px;
+        padding-top: 20px;
+    }
+    .container-ll-phanthongtin{
+        margin-right: 20px;
+    }
+}
+@media (max-width: 800px){
+    .icon-dt-kichco{
+        width: 250px;
+        height: 298.4px;
+    }
+    .icon-dt{
+        margin-top: 150px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .ll-dt{
+        padding-left: 5px;
+        padding-top: 20px;
+    }
+    .container-ll-phanthongtin{
+        margin-right: 25px;
+    }
+}
+@media (max-width: 870px){
+    .icon-dt-kichco{
+        width: 250px;
+        height: 298.4px;
+    }
+    .icon-dt{
+        margin-top: 150px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .ll-dt{
+        padding-left: 5px;
+        padding-top: 20px;
+    }
+    .container-ll-phanthongtin{
+        margin-right: 25px;
+    }
+}
+@media (max-width: 600px){
+    .icon-dt-kichco{
+        width: 200px;
+        height: 238.7px;
+    }
+    .container-lienlac{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .icon-dt{
+        margin-top: 30px;
+        padding-right: 0px;
+        padding-left: 50px;
+    }
+    .ll-dt{
+        padding-left: 5px;
+        padding-top: 20px;
+    }
+}
+@media (max-width: 320px){
+    .icon-dt-kichco{
+        width: 200px;
+        height: 238.7px;
+    }
+    .container-lienlac{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .icon-dt{
+        margin-top: 30px;
+        padding-right: 0px;
+        padding-left: 30px;
+    }
+    .ll-dt{
+        padding-left: 4px;
+        padding-top: 20px;
+    }
+}
+@media (max-width: 630px){
+    .icon-dt-kichco{
+        width: 200px;
+        height: 238.7px;
+    }
+    .container-lienlac{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .icon-dt{
+        margin-top: 30px;
+        padding-right: 0px;
+        padding-left: 50px;
+    }
+    .ll-dt{
+        padding-left: 5px;
+        padding-top: 20px;
+    }
+}
+@media (max-width: 640px){
+    .icon-dt-kichco{
+        width: 200px;
+        height: 238.7px;
+    }
+    .container-lienlac{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .icon-dt{
+        margin-top: 30px;
+        padding-right: 0px;
+        padding-left: 50px;
+    }
+    .ll-dt{
+        padding-left: 5px;
+        padding-top: 20px;
+    }
+}
+@media (max-width: 720px){
+    .icon-dt-kichco{
+        width: 200px;
+        height: 238.7px;
+    }
+    .container-lienlac{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .icon-dt{
+        margin-top: 30px;
+        padding-right: 0px;
+        padding-left: 50px;
+    }
+    .ll-dt{
+        padding-left: 5px;
+        padding-top: 20px;
+    }
+}

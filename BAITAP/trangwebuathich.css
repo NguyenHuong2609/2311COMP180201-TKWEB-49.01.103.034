@@ -1,0 +1,115 @@
+.container-nd-tw{
+    background-color: #ffd5dd;
+    border-radius: 3px;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+
+}
+.tw-tieude{
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 17%;
+}
+.tw-list{
+    width: 17%;
+
+}
+.tw-list-item{
+    padding-bottom: 5px;
+    width: 70%;
+}
+.tw-tieude-1{
+    margin-top: 20px;
+}
+.picture-icon{
+    position: relative;
+    float: right;
+    margin-right: 85px;
+    margin-top: 52px;
+}
+.tw-list-link{
+    text-decoration: none;
+    color: black;
+}
+.tw-list-link:hover{
+    color: blue;
+    font-weight: bold;
+}
+.tw-list-link:active{
+    color: silver;
+}
+.footer{
+    background-color: rgb(161 110 149);
+    height: 60px;
+}
+.footer-content{
+    text-align: center;
+    color: rgb(187 187 187);
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 25px;
+}
+@media (max-width: 1024px){
+    .picture-icon{
+        position: relative;
+        float: right;
+        margin-left: 20px;
+        margin-right: 80px;
+        margin-top: 90px;
+        margin-bottom: 20px;
+        width: 400px;
+        height: 350px;
+    }
+}
+@media (max-width: 800px){
+    .picture-icon{
+        position: relative;
+        float: right;
+        margin-left: 20px;
+        margin-right: 45px;
+        margin-top: 90px;
+        margin-bottom: 20px;
+        width: 350px;
+        height: 310px;
+    }
+}
+
+@media (max-width: 768px){
+    .picture-icon{
+        position: relative;
+        float: right;
+        margin-left: 20px;
+        margin-right: 40px;
+        margin-top: 90px;
+        margin-bottom: 20px;
+        width: 350px;
+        height: 310px;
+    }
+}
+
+@media (max-width: 480px){
+    .picture-icon{
+        position: relative;
+        float: right;
+        margin-left: 20px;
+        margin-right: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 280px;
+        height: 150px;
+    }
+}
+@media (max-width: 320px){
+    .picture-icon{
+        position: relative;
+        float: right;
+        margin-right: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 170px;
+        height: 150px;
+    }
+}

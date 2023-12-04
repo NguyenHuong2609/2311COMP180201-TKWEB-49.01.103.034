@@ -1,0 +1,157 @@
+.grid-column-10-1{
+    margin-top: 40px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 80.3333%;
+}
+.container-st{
+    margin-top: 40px;
+    background-color: purple;
+    color: white;
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+.container-st-list{
+    padding-left: 0px;
+
+}
+.st-list-item{
+    text-decoration: none;
+    list-style: none;
+    margin: 20px 0px 20px 20px;
+}
+.st-list-item-link{
+    text-decoration: none;
+    color: white;
+    padding: 5px 6px 5px 10px;
+}
+.st-list-item-link:hover{
+    color: blue;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: pink;
+
+}
+.st-list-item-link:active{
+    color: yellow;
+}
+.container-nd-st{
+    background-color: #ffd5dd;
+    padding-left: 40px;
+    border-radius: 3px;
+}
+.st-tieude{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.st-tieude-1{
+    padding-top: 30px;
+}
+.tt-list{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.list-con{
+    font-size: 16px;
+}
+.khungchieu{
+    position: relative;
+    border-radius: 7px;
+    border-color: pink;
+}
+.ps-anime{
+    margin-left: 5px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.list-chinhchieu{
+    text-decoration: none;
+    color: black;
+}
+.list-chinhchieu:hover{
+    color: orangered;
+    font-weight: bold;
+}
+.list-chinhchieu-kc{
+    margin-bottom: 0px;
+}
+.list-chinhchieu-kc-4{
+    margin-bottom: 16px;
+}
+.list-anime{
+    margin-top: 16px;
+}
+.video-lq{
+    margin-bottom: 16px;
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 50px;
+    flex-wrap: wrap;
+}
+.list-chinhchieu-2:hover{
+    color: orangered;
+    font-weight: bold;
+    cursor: pointer;
+}
+.game-video-1{
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 1);
+    margin: 15px 5px 10px 5px;
+    transition: 1s;
+}
+.game-video-1:hover{
+    transform: scale(1.2);
+}
+.footer{
+    background-color: rgb(161 110 149);
+    height: 60px;
+}
+.footer-content{
+    text-align: center;
+    color: rgb(187 187 187);
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 25px;
+}
+.chuatenbai-khung{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 65px;
+    flex-wrap: wrap;
+}
+@media (max-width: 768px){
+    .khungchieu{
+        width: 500px;
+        height: 350px;
+    }
+}
+@media (max-width: 600px){
+    .khungchieu{
+        width: 400px;
+        height: 300px;
+    }
+}
+@media (max-width: 480px){
+    .khungchieu{
+        width: 300px;
+        height: 200px;
+    }
+}
+@media (max-width: 320px){
+    .khungchieu{
+        width: 200px;
+        height: 150px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .container-nd-st{
+        background-color: #ffd5dd;
+        padding-left: 20px;
+        border-radius: 3px;
+    }
+}

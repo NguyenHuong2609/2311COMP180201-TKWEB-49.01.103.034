@@ -1,0 +1,87 @@
+.dm-kh-list{
+    padding-left: 0px;
+}
+.container-nd-paht{
+    background-color: #ffd5dd;
+    border-radius: 3px;
+}
+.paht-list{
+    margin-top: 0px;
+}
+.paht-list-item{
+    padding-top: 35px;
+    list-style: none;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.video-paht{
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+.chuthichvideo-paht{
+    font-size: 15px;
+    font: italic;
+    color: black;
+}
+.footer{
+    background-color: rgb(161 110 149);
+    height: 60px;
+}
+.footer-content{
+    text-align: center;
+    color: rgb(187 187 187);
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 25px;
+}
+@media (max-width: 1024px){
+    .video-paht{
+        padding-left: 60px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 800px){
+    .video-paht{
+        padding-left: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 768px){
+    .video-paht{
+        padding-left: 45px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 600px){
+    .video-paht{
+        padding-left: 38px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 480px){
+    .video-paht{
+        padding-left: 28px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 320px){
+    .video-paht{
+        padding-left: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+}
