@@ -1,0 +1,86 @@
+body{
+    background-image: url(images/R.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.header-ppsp-img{
+    width: 100%;
+    height: 80px;
+}
+.navbar-header{
+    margin-bottom: 40px;
+    background-color: blue;
+}
+.qlsp-nav-item{
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+span{
+    font-weight: bold;
+    font-size: 20px;
+}
+label{
+    font-size: 16px;
+}
+th{
+    font-size: 16px;
+}
+ul{
+    padding-left: 0px;
+}
+td{
+    font-size: 14px;
+}
+
+
+.panel{
+    border: solid #0095ff 2px;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+.panel-heading{
+    background-color: #002bff;
+    padding: 10px;
+    color: white;
+}
+.panel-body{
+    padding: 10px;
+    background-color: white;
+}
+.panel-body label{
+    font-weight: bold;
+}
+.form-group{
+    display: block;
+    margin-bottom: 20px;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.table{
+    width: 100%;
+}
+.table tr{
+    border-bottom: solid blue 1px;
+}
+footer{
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgb(0, 94, 255);
+}
+.span-footer-item{
+    color: rgba(255, 255, 255, 0.681);
+    font-size: 16px;
+}
