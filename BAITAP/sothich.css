@@ -1,3 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+img{
+    width: 440px;
+    height: 280px;
+    display: flex;
+    margin: auto;
+}
+.img-minhhoa--1{
+    text-align: center;
+}
+.img-minhhoa--1 img{
+    margin-bottom: 6px;
+}
+p{
+    text-align: justify;
+    padding-right: 70px;
+}
 .grid-column-10-1{
     margin-top: 40px;
     padding-left: 12px;

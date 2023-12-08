@@ -42,6 +42,7 @@ header{
     padding: 15px 0px 15px 0px;
     box-sizing: content;
     color: white;
+    border-radius: 5px;
 }
 .grid{
     width: 1250px;
@@ -132,6 +133,21 @@ header{
     font-weight: bold;
     font-size: 15px;
     padding-top: 22px;
+}
+@media (max-width: 1920px){
+    .grid{
+        width: 1385px;
+    }
+}
+@media (max-width: 1280px){
+    .grid{
+        width: 1200px;
+    }
+}
+@media (max-width: 1024px){
+    .grid{
+        width: 950px;
+    }
 }
 @media (max-width: 870px){
     .nd-ttcb-anh{

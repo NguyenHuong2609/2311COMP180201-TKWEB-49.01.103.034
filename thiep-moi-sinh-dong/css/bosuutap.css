@@ -24,6 +24,48 @@
   vertical-align: middle;
   width: 100%;
 }
+#anhcuoi-1{
+  height: 237px;
+}
+#anhcuoi-3{
+  height: 151px;
+}
+#anhcuoi-4{
+  height: 219px;
+}
+@media (max-width: 1920px){
+  #anhcuoi-1{
+    height: 269px;
+  }
+  #anhcuoi-3{
+    height: 171px;
+  }
+  #anhcuoi-4{
+    height: 248px;
+  }
+}
+@media (max-width: 1280px){
+  #anhcuoi-1{
+    height: 226px;
+  }
+  #anhcuoi-3{
+    height: 142px;
+  }
+  #anhcuoi-4{
+    height: 207px;
+  }
+}
+@media (max-width: 1024px){
+  #anhcuoi-1{
+    height: 177px;
+  }
+  #anhcuoi-3{
+    height: 111px;
+  }
+  #anhcuoi-4{
+    height: 165px;
+  }
+}
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
