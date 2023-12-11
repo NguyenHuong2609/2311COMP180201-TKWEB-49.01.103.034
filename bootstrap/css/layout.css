@@ -78,10 +78,10 @@ body{
     transform: translateY(-10px);
 }
 .card{
-    background-color: orange;
+    background-color: red;
 }
 .card-body{
-    background-color:antiquewhite;
+    background-color:#fad7d7;
 }
 .giohang{
     display: flex;
@@ -91,5 +91,10 @@ body{
     width: 130px;
     margin-left: 18px;
 }
-
+.card-header{
+    color: white;
+}
+.card-footer{
+    color: white;
+}
 
