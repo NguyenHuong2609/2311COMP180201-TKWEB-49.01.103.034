@@ -8,11 +8,15 @@ form span{
     font-weight: bold;
     color: white;
 }
-form input, form select{
-    width: 200px;
-    margin: 0px 1px;
+form input{
+    border-color: unset;
+}
+.form-2 input, .form-2 select{
+    width: 300px;
+    height: 40px;
+    margin: 14px 0px;
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius:3px;
 }
 form select{
     margin: 1px;
@@ -23,18 +27,29 @@ select{
 form input[type='submit']{
     display: block;
     margin: 10px 0px 12px 96px;
-    width: 80px;
-    height: 30px;
+    width: 100px;
+    padding: 11px 10px;
     background-color: black;
     color: white;
+    border-color: black;
     font-weight: bold;
+    transition: 0.3s background-color;
+    text-align: center;
+    height: auto;
 }
 form input[type='submit']:hover{
     background-color: whitesmoke;
+    border-color: whitesmoke;
     color: black;
     font-weight: bold;
 }
 .lienhe-form{
     padding: 20px 400px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select[name="town"]{
+    padding-left: 20px;
 }
 

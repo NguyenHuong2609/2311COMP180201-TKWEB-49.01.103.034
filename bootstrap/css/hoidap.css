@@ -26,22 +26,24 @@ input[type="email"]{
 textarea{
     padding-top: 10px;
 }
-button{
+.submit button{
     background-color: black;
-    border: 1px solid black;
     border-radius: 4px;
     color: white;
     cursor: pointer;
     text-align: center;
     transition: 0.3s background-color;
     font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .button-hoidap{
     min-width: 125px;
     padding: 11px 10px;
 }
 button:hover{
-    background-color: white;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
     color: black;
 }
 /* Layout */
